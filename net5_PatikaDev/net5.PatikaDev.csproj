@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>net5.PatikaDev.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="0-Courses\csharp-101\15-odev-2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BarcodeLib" Version="2.4.0" />
+  </ItemGroup>
+
+</Project>
